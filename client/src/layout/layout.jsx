@@ -1,4 +1,5 @@
 import Header from '../components/header/header';
+import MainMenu from '../components/menu/mainMenu';
 import Strip from '../components/strip/strip';
 import '../index.css'
 
@@ -7,6 +8,7 @@ const LayoutPage = () => {
         <>
             <Strip />
             <Header />
+            <MainMenu />
         </>
      );
 }

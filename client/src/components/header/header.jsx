@@ -38,7 +38,7 @@ const Header = () => {
 
     return ( 
         <div className="flex items-center justify-between lg:justify-evenly max-sm:px-2 max-md:px-4 max-lg:px-10 py-6 lg:py-8">
-            <svg xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" viewBox="0 0 256 256" className='lg:hidden hover:text-yellow-400 cursor-pointer'><path fill="currentColor" d="M228 128a12 12 0 0 1-12 12H40a12 12 0 0 1 0-24h176a12 12 0 0 1 12 12M40 76h176a12 12 0 0 0 0-24H40a12 12 0 0 0 0 24m176 104H40a12 12 0 0 0 0 24h176a12 12 0 0 0 0-24"></path></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" viewBox="0 0 15 15" className='lg:hidden hover:text-yellow-400 cursor-pointer'><path fill="currentColor" fillRule="evenodd" d="M15 4H0V3h15zM6 8H0V7h6zm3 4H0v-1h9z" clipRule="evenodd"></path></svg>
             <Link to={'/'}><img src={logo} alt="Poco logo" className='w-32 lg:w-28' /></Link>
             <div className='hidden lg:flex -gap-1 relative '>
                 <select name="selectCategory" id="selectCategory" className='py-3 pl-4 border w-52 rounded-l-full text-sm font-semibold bg-yellow-400 outline-none cursor-pointer transition ease-in-out duration-700'>
