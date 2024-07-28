@@ -1,3 +1,4 @@
+import { Outlet } from 'react-router-dom';
 import Header from '../components/header/header';
 import MainMenu from '../components/menu/mainMenu';
 import Strip from '../components/strip/strip';
@@ -9,6 +10,7 @@ const LayoutPage = () => {
             <Strip />
             <Header />
             <MainMenu />
+            <Outlet />
         </>
      );
 }

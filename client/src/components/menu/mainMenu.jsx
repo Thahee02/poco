@@ -2,7 +2,7 @@ import { Link, NavLink } from "react-router-dom";
 
 const MainMenu = () => {
     return ( 
-        <div className="w-full h-16 bg-green-600 hidden lg:flex items-center justify-around text-white">
+        <div className="w-full h-16 bg-green-600 hidden lg:flex items-center justify-around text-white sticky top-0">
             <div className="flex items-center gap-12 h-full ">
                 <div className="flex items-center justify-between bg-green-700 h-full w-80 cursor-pointer px-4 group overflow-hidden hover:overflow-visible relative">
                     <div className="flex items-center gap-1">
