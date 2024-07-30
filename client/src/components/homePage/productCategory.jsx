@@ -32,10 +32,10 @@ const ProductCategorySection = () => {
     };
 
     return ( 
-        <div className='max-sm:px-2 max-md:px-16 py-20'>
-            <Carousel responsive={responsive} infinite={true}  centerMode={false} autoPlay={true} autoPlaySpeed={5000} transitionDuration={1000} className='max-sm:px-24 max-md:px-28 max-lg:px-12 lg:px-12 '>
+        <div className='max-sm:px-2 max-md:px-16 xl:mx-14 py-20'>
+            <Carousel responsive={responsive} infinite={true}  centerMode={false} autoPlay={true} autoPlaySpeed={5000} transitionDuration={1000} className='max-sm:px-20 max-md:px-24 max-lg:px-10 lg:px-4 xl:px-4 '>
                 <Link to={'/shop/burger'} className='cursor-default'>
-                    <div className='w-72 h-32 bg-orange-400 rounded-lg pl-8 pr-4 py-2 text-white flex items-center justify-between font-roboto cursor-pointer group'>
+                    <div className='w-80 h-32 bg-orange-400 rounded-lg pl-8 pr-4 py-2 text-white flex items-center justify-between font-roboto cursor-pointer group'>
                         <div className='flex flex-col gap-2'>
                             <h4 className='font-bold'>BURGER</h4>
                             <p className='text-xs'>0 Products</p>
@@ -46,7 +46,7 @@ const ProductCategorySection = () => {
                     </div>
                 </Link>
                 <Link to={'/shop/chicken'} className='cursor-default'>
-                    <div className='w-72 h-32 bg-red-800 rounded-lg pl-8 pr-4 py-2 text-white flex items-center justify-between font-roboto cursor-pointer group'>
+                    <div className='w-80 h-32 bg-red-800 rounded-lg pl-8 pr-4 py-2 text-white flex items-center justify-between font-roboto cursor-pointer group'>
                         <div className='flex flex-col gap-2'>
                             <h4 className='font-bold'>CHICKEN</h4>
                             <p className='text-xs'>0 Products</p>
@@ -57,7 +57,7 @@ const ProductCategorySection = () => {
                     </div>
                 </Link>
                 <Link to={'/shop/sauce'} className='cursor-default'>
-                    <div className='w-72 h-32 bg-green-600 rounded-lg pl-8 pr-4 py-2 text-white flex items-center justify-between font-roboto cursor-pointer group'>
+                    <div className='w-80 h-32 bg-green-600 rounded-lg pl-8 pr-4 py-2 text-white flex items-center justify-between font-roboto cursor-pointer group'>
                         <div className='flex flex-col gap-2'>
                             <h4 className='font-bold'>SAUCES</h4>
                             <p className='text-xs'>0 Products</p>
@@ -68,7 +68,7 @@ const ProductCategorySection = () => {
                     </div>
                 </Link>
                 <Link to={'/shop/drink'} className='cursor-default'>
-                    <div className='w-72 h-32 bg-pink-500 rounded-lg pl-8 pr-4 py-2 text-white flex items-center justify-between font-roboto cursor-pointer group'>
+                    <div className='w-80 h-32 bg-pink-500 rounded-lg pl-8 pr-4 py-2 text-white flex items-center justify-between font-roboto cursor-pointer group'>
                         <div className='flex flex-col gap-2'>
                             <h4 className='font-bold'>DRINKS</h4>
                             <p className='text-xs'>0 Products</p>
@@ -79,7 +79,7 @@ const ProductCategorySection = () => {
                     </div>
                 </Link>
                 <Link to={'/shop/pizza'} className='cursor-default'>
-                    <div className='w-72 h-32 bg-blue-400 rounded-lg pl-8 pr-4 py-2 text-white flex items-center justify-between font-roboto cursor-pointer group'>
+                    <div className='w-80 h-32 bg-blue-400 rounded-lg pl-8 pr-4 py-2 text-white flex items-center justify-between font-roboto cursor-pointer group'>
                         <div className='flex flex-col gap-2'>
                             <h4 className='font-bold'>PIZZA</h4>
                             <p className='text-xs'>0 Products</p>
