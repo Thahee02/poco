@@ -33,11 +33,11 @@ const LatestItemsSection = () => {
             <Carousel responsive={responsive} infinite={true}  centerMode={false} autoPlay={true} autoPlaySpeed={5000} transitionDuration={1000} className='max-sm:px-20 max-md:px-24 max-lg:px-10 lg:px-4 xl:px-4 '>
                 <Link to={'/shop/#'} className='cursor-default'>
                     <div className='w-80 h-[500px] border-2 rounded-3xl px-3 pt-4 text-white flex flex-col items-center gap-5 font-roboto cursor-pointer relative group'>
-                        <div className='absolute top-3 w-72 h-[300px] bg-yellow-100 group-hover:bg-yellow-400 rounded-2xl origin-bottom scale-y-50 group-hover:scale-y-100 -z-10 transition-all ease-in-out duration-1000'>
+                        <div className='absolute top-3 w-72 h-[300px] bg-yellow-100 group-hover:bg-yellow-400 rounded-2xl origin-bottom scale-y-50 group-hover:scale-y-100 -z-10 transition-all ease-in-out duration-300'>
                             
                         </div>
                         <div className='w-full h-[300px] flex items-center justify-center '>
-                            <img src={Drink} alt="" className='w-48 h-48 group-hover:w-56 group-hover:h-56 transition-all ease-in-out duration-1000' />
+                            <img src={Drink} alt="" className='w-48 h-48 group-hover:w-56 group-hover:h-56 transition-all ease-in-out duration-300' />
                         </div>
                         
                         <div className='self-start px-2'>
@@ -64,11 +64,11 @@ const LatestItemsSection = () => {
                 </Link>
                 <Link to={'/shop/#'} className='cursor-default'>
                     <div className='w-80 h-[500px] border-2 rounded-3xl px-3 pt-4 text-white flex flex-col items-center gap-5 font-roboto cursor-pointer relative group'>
-                        <div className='absolute top-3 w-72 h-[300px] bg-yellow-100 group-hover:bg-yellow-400 rounded-2xl origin-bottom scale-y-50 group-hover:scale-y-100 -z-10 transition-all ease-in-out duration-1000'>
+                        <div className='absolute top-3 w-72 h-[300px] bg-yellow-100 group-hover:bg-yellow-400 rounded-2xl origin-bottom scale-y-50 group-hover:scale-y-100 -z-10 transition-all ease-in-out duration-300'>
                             
                         </div>
                         <div className='w-full h-[300px] flex items-center justify-center '>
-                            <img src={Drink} alt="" className='w-48 h-48 group-hover:w-56 group-hover:h-56 transition-all ease-in-out duration-1000' />
+                            <img src={Drink} alt="" className='w-48 h-48 group-hover:w-56 group-hover:h-56 transition-all ease-in-out duration-300' />
                         </div>
                         
                         <div className='self-start px-2'>
@@ -95,11 +95,11 @@ const LatestItemsSection = () => {
                 </Link>
                 <Link to={'/shop/#'} className='cursor-default'>
                     <div className='w-80 h-[500px] border-2 rounded-3xl px-3 pt-4 text-white flex flex-col items-center gap-5 font-roboto cursor-pointer relative group'>
-                        <div className='absolute top-3 w-72 h-[300px] bg-yellow-100 group-hover:bg-yellow-400 rounded-2xl origin-bottom scale-y-50 group-hover:scale-y-100 -z-10 transition-all ease-in-out duration-1000'>
+                        <div className='absolute top-3 w-72 h-[300px] bg-yellow-100 group-hover:bg-yellow-400 rounded-2xl origin-bottom scale-y-50 group-hover:scale-y-100 -z-10 transition-all ease-in-out duration-300'>
                             
                         </div>
                         <div className='w-full h-[300px] flex items-center justify-center '>
-                            <img src={Drink} alt="" className='w-48 h-48 group-hover:w-56 group-hover:h-56 transition-all ease-in-out duration-1000' />
+                            <img src={Drink} alt="" className='w-48 h-48 group-hover:w-56 group-hover:h-56 transition-all ease-in-out duration-300' />
                         </div>
                         
                         <div className='self-start px-2'>
@@ -126,11 +126,11 @@ const LatestItemsSection = () => {
                 </Link>
                 <Link to={'/shop/#'} className='cursor-default'>
                     <div className='w-80 h-[500px] border-2 rounded-3xl px-3 pt-4 text-white flex flex-col items-center gap-5 font-roboto cursor-pointer relative group'>
-                        <div className='absolute top-3 w-72 h-[300px] bg-yellow-100 group-hover:bg-yellow-400 rounded-2xl origin-bottom scale-y-50 group-hover:scale-y-100 -z-10 transition-all ease-in-out duration-1000'>
+                        <div className='absolute top-3 w-72 h-[300px] bg-yellow-100 group-hover:bg-yellow-400 rounded-2xl origin-bottom scale-y-50 group-hover:scale-y-100 -z-10 transition-all ease-in-out duration-300'>
                             
                         </div>
                         <div className='w-full h-[300px] flex items-center justify-center '>
-                            <img src={Drink} alt="" className='w-48 h-48 group-hover:w-56 group-hover:h-56 transition-all ease-in-out duration-1000' />
+                            <img src={Drink} alt="" className='w-48 h-48 group-hover:w-56 group-hover:h-56 transition-all ease-in-out duration-300' />
                         </div>
                         
                         <div className='self-start px-2'>
@@ -157,11 +157,11 @@ const LatestItemsSection = () => {
                 </Link>
                 <Link to={'/shop/#'} className='cursor-default'>
                     <div className='w-80 h-[500px] border-2 rounded-3xl px-3 pt-4 text-white flex flex-col items-center gap-5 font-roboto cursor-pointer relative group'>
-                        <div className='absolute top-3 w-72 h-[300px] bg-yellow-100 group-hover:bg-yellow-400 rounded-2xl origin-bottom scale-y-50 group-hover:scale-y-100 -z-10 transition-all ease-in-out duration-1000'>
+                        <div className='absolute top-3 w-72 h-[300px] bg-yellow-100 group-hover:bg-yellow-400 rounded-2xl origin-bottom scale-y-50 group-hover:scale-y-100 -z-10 transition-all ease-in-out duration-300'>
                             
                         </div>
                         <div className='w-full h-[300px] flex items-center justify-center '>
-                            <img src={Drink} alt="" className='w-48 h-48 group-hover:w-56 group-hover:h-56 transition-all ease-in-out duration-1000' />
+                            <img src={Drink} alt="" className='w-48 h-48 group-hover:w-56 group-hover:h-56 transition-all ease-in-out duration-300' />
                         </div>
                         
                         <div className='self-start px-2'>
