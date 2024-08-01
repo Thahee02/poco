@@ -2,7 +2,8 @@ import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import Drink from '../../assets/drink.png'
 import { Link } from "react-router-dom";
-const LatestItemsSection = () => {
+
+const MostSellFoodsSection = () => {
 
     const responsive = {
         abovexl: {
@@ -29,7 +30,7 @@ const LatestItemsSection = () => {
 
     return ( 
         <div className='max-sm:px-2 max-md:px-16 xl:mx-14 py-10'>
-            <h1 className='text-5xl font-bold pl-4 mb-10 max-lg:text-center'>New Dishes</h1>
+            <h1 className='text-5xl font-bold pl-4 mb-10 max-lg:text-center'>Most Sell Dishes</h1>
             <Carousel responsive={responsive} infinite={true}  centerMode={false} autoPlay={true} autoPlaySpeed={5000} transitionDuration={1000} className='max-sm:px-20 max-md:px-24 max-lg:px-10 lg:px-4 xl:px-8 '>
                 <Link to={'/shop/#'} className='cursor-default'>
                     <div className='w-72 h-[475px] border-2 rounded-3xl px-3 text-white flex flex-col items-center gap-5 font-roboto cursor-pointer relative group'>
@@ -191,4 +192,4 @@ const LatestItemsSection = () => {
      );
 }
  
-export default LatestItemsSection;
+export default MostSellFoodsSection;
