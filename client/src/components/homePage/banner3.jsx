@@ -1,8 +1,21 @@
 import HomePageBanner3 from '../../assets/home-page-banner-3.jpg'
 import leafLeftImage from '../../assets/leaf-left.png'
 import leafRightImage from '../../assets/leaf-right.png'
+import React, {useState} from "react"; 
+import Datepicker from "react-tailwindcss-datepicker"; 
 
 const BannerThirdSection = () => {
+
+    const [value, setValue] = useState({ 
+        startDate: null,
+        endDate: null 
+    }); 
+
+    const handleValueChange = (newValue) => {
+        console.log("newValue:", newValue); 
+        setValue(newValue); 
+    } 
+    
     return ( 
         <div className="w-full  my-20 py-16 lg:py-10 flex max-md:flex-col px-4 items-center justify-around max-lg:gap-10  text-white bg-cover bg-bottom" style={{backgroundImage: 'url('+ HomePageBanner3 +')'}}>
             <div className="flex-wrap w-full lg:w-4/12 xl:w-3/12 max-md:text-center">
@@ -32,7 +45,14 @@ const BannerThirdSection = () => {
                         <option value="threePeople" className='text-gray-500'>3 People</option>
                         <option value="fourPeople" className='text-gray-500'>4 People</option>
                     </select>
-                    <input type="date" className='w-full bg-transparent px-4 py-3 border border-gray-300 rounded focus:border-yellow-400 outline-none'/>
+                    <Datepicker 
+                        asSingle={true} 
+                        useRange={false} 
+                        minDate={new Date()}
+                        value={value} 
+                        onChange={handleValueChange}
+                        inputClassName="w-full bg-transparent px-4 py-3 border border-gray-300 rounded focus:border-yellow-400 outline-none text-white" 
+                    />
                     <input type="time" className='w-full bg-transparent px-4 py-3 border border-gray-300 rounded focus:border-yellow-400 outline-none'/>
                     <input type="submit" value={'Book A Table'} className='w-full bg-yellow-400 text-black font-bold px-4 py-4  rounded-xl hover:text-white outline-none transition-all ease-in-out duration-300 cursor-pointer'/>
                 </form>
