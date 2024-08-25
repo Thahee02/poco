@@ -17,7 +17,7 @@ const BannerThirdSection = () => {
     } 
     
     return ( 
-        <div className="w-full  my-20 py-16 lg:py-10 flex max-md:flex-col px-4 items-center justify-around max-lg:gap-10  text-white bg-cover bg-bottom" style={{backgroundImage: 'url('+ HomePageBanner3 +')'}}>
+        <div className="w-full my-20 py-16 lg:py-10 flex max-md:flex-col px-4 items-center justify-around max-lg:gap-10  text-white bg-cover bg-bottom" style={{backgroundImage: 'url('+ HomePageBanner3 +')'}}>
             <div className="flex-wrap w-full lg:w-4/12 xl:w-3/12 max-md:text-center">
                 <h1 className="text-4xl font-bold">Do you have any dinner plan today? Reserve your table</h1>
                 <p className="py-8 text-sm max-md:px-16">Make online reservations, read restaurant reviews from dinners, and earn points towards free meals. OpenTable is a real time online reservation.</p>
