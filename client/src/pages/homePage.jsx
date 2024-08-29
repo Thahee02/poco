@@ -7,6 +7,7 @@ import ChefsSection from '../components/homePage/chefs';
 import LatestItemsSection from '../components/homePage/latestFoods';
 import MostSellFoodsSection from '../components/homePage/mostSellFoods';
 import ProductCategorySection from '../components/homePage/productCategory';
+import ReviewSection from '../components/homePage/reviewSection';
 const HomePage = () => {
     return ( 
         <>
@@ -18,6 +19,7 @@ const HomePage = () => {
             <BannerThirdSection />
             <ChefsSection />
             <BannerFourthSection />
+            <ReviewSection />
         </>
      );
 }
