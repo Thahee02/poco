@@ -3,7 +3,7 @@ import PizzaImage from '../../assets/pizza-newsletter.png'
 
 const NewsLetterSection = () => {
     return ( 
-        <div className='flex max-lg:flex-col items-center justify-around max-lg:relative'>
+        <div className='flex max-lg:flex-col items-center justify-around max-lg:relative mb-16'>
             <img src={VegitablesImage} alt="" className='max-lg:absolute max-lg:top-0 max-lg:-z-10 max-lg:left max-lg:opacity-25' />
             <div className='flex flex-col items-center gap-3'>
                 <h3 className="font-curve text-4xl text-green-600 font-bold">Newsletter</h3>

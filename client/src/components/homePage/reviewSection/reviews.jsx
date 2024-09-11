@@ -19,7 +19,7 @@ const Reviews = () => {
         },
         md: {
             breakpoint: { max: 1024, min: 768 },
-            items: 2
+            items: 1
         },
         sm: {
             breakpoint: { max: 768, min: 0 },
@@ -28,9 +28,9 @@ const Reviews = () => {
     };
 
     return ( 
-        <div className='max-sm:px-2 max-w-5xl'>
-            <Carousel responsive={responsive} infinite={true}  centerMode={false} autoPlay={true} autoPlaySpeed={7500} transitionDuration={1000} className='max-sm:px-2 max-md:px-24 max-lg:px-10 lg:px-4 '>               
-                <div className='w-[450px] h-64 border-2 rounded-3xl text-white flex flex-col p-12 gap-5 font-roboto cursor-pointer relative group'>                   
+        <div className='max-sm:px-0 max-w-5xl'>
+            <Carousel responsive={responsive} infinite={true}  centerMode={false} autoPlay={true} autoPlaySpeed={7500} transitionDuration={1000} className='max-sm:px-0 max-md:px-20 max-lg:px-10 lg:px-4 '>               
+                <div className='w-[450px] h-64 border-2 rounded-3xl text-white flex flex-col p-12 gap-5 font-roboto cursor-pointer relative group max-sm:scale-90'>                   
                     <div className='flex items-center gap-3'>
                         <img src={CustomerImage} alt="" className='w-16 h-16 rounded-full shrink-0' />
                         <div className='w-full'>
@@ -52,7 +52,7 @@ const Reviews = () => {
                         <p className='text-gray-400'>"Forget the pizza shops, This hidden spot makes the best New York-style pizza in naples"</p>
                     </div>
                 </div>
-                <div className='w-[450px] h-64 border-2 rounded-3xl text-white flex flex-col p-12 gap-5 font-roboto cursor-pointer relative group'>                   
+                <div className='w-[450px] h-64 border-2 rounded-3xl text-white flex flex-col p-12 gap-5 font-roboto cursor-pointer relative group max-sm:scale-90'>                   
                     <div className='flex items-center gap-3'>
                         <img src={CustomerImage} alt="" className='w-16 h-16 rounded-full shrink-0' />
                         <div className='w-full'>
@@ -74,7 +74,7 @@ const Reviews = () => {
                         <p className='text-gray-400'>"Forget the pizza shops, This hidden spot makes the best New York-style pizza in naples"</p>
                     </div>
                 </div>
-                <div className='w-[450px] h-64 border-2 rounded-3xl text-white flex flex-col p-12 gap-5 font-roboto cursor-pointer relative group'>                   
+                <div className='w-[450px] h-64 border-2 rounded-3xl text-white flex flex-col p-12 gap-5 font-roboto cursor-pointer relative group max-sm:scale-90'>                   
                     <div className='flex items-center gap-3'>
                         <img src={CustomerImage} alt="" className='w-16 h-16 rounded-full shrink-0' />
                         <div className='w-full'>
@@ -96,7 +96,7 @@ const Reviews = () => {
                         <p className='text-gray-400'>"Forget the pizza shops, This hidden spot makes the best New York-style pizza in naples"</p>
                     </div>
                 </div>
-                <div className='w-[450px] h-64 border-2 rounded-3xl text-white flex flex-col p-12 gap-5 font-roboto cursor-pointer relative group'>                   
+                <div className='w-[450px] h-64 border-2 rounded-3xl text-white flex flex-col p-12 gap-5 font-roboto cursor-pointer relative group max-sm:scale-90'>                   
                     <div className='flex items-center gap-3'>
                         <img src={CustomerImage} alt="" className='w-16 h-16 rounded-full shrink-0' />
                         <div className='w-full'>
@@ -118,7 +118,7 @@ const Reviews = () => {
                         <p className='text-gray-400'>"Forget the pizza shops, This hidden spot makes the best New York-style pizza in naples"</p>
                     </div>
                 </div>
-                <div className='w-[450px] h-64 border-2 rounded-3xl text-white flex flex-col p-12 gap-5 font-roboto cursor-pointer relative group'>                   
+                <div className='w-[450px] h-64 border-2 rounded-3xl text-white flex flex-col p-12 gap-5 font-roboto cursor-pointer relative group max-sm:scale-90'>                   
                     <div className='flex items-center gap-3'>
                         <img src={CustomerImage} alt="" className='w-16 h-16 rounded-full shrink-0' />
                         <div className='w-full'>
@@ -140,7 +140,7 @@ const Reviews = () => {
                         <p className='text-gray-400'>"Forget the pizza shops, This hidden spot makes the best New York-style pizza in naples"</p>
                     </div>
                 </div>
-                <div className='w-[450px] h-64 border-2 rounded-3xl text-white flex flex-col p-12 gap-5 font-roboto cursor-pointer relative group'>                   
+                <div className='w-[450px] h-64 border-2 rounded-3xl text-white flex flex-col p-12 gap-5 font-roboto cursor-pointer relative group max-sm:scale-90'>                   
                     <div className='flex items-center gap-3'>
                         <img src={CustomerImage} alt="" className='w-16 h-16 rounded-full shrink-0' />
                         <div className='w-full'>
