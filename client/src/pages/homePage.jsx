@@ -6,6 +6,7 @@ import BannerFourthSection from '../components/homePage/banner4';
 import ChefsSection from '../components/homePage/chefs';
 import LatestItemsSection from '../components/homePage/latestFoods';
 import MostSellFoodsSection from '../components/homePage/mostSellFoods';
+import NewsLetterSection from '../components/homePage/newsletter';
 import ProductCategorySection from '../components/homePage/productCategory';
 import ReviewSection from '../components/homePage/reviewSection';
 const HomePage = () => {
@@ -20,6 +21,7 @@ const HomePage = () => {
             <ChefsSection />
             <BannerFourthSection />
             <ReviewSection />
+            <NewsLetterSection />
         </>
      );
 }
