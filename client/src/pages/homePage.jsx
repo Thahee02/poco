@@ -8,6 +8,7 @@ import LatestItemsSection from '../components/homePage/latestFoods';
 import MostSellFoodsSection from '../components/homePage/mostSellFoods';
 import NewsLetterSection from '../components/homePage/newsletter';
 import ProductCategorySection from '../components/homePage/productCategory';
+import ResponsibilitiesSection from '../components/homePage/responsibilities';
 import ReviewSection from '../components/homePage/reviewSection';
 const HomePage = () => {
     return ( 
@@ -22,6 +23,7 @@ const HomePage = () => {
             <BannerFourthSection />
             <ReviewSection />
             <NewsLetterSection />
+            <ResponsibilitiesSection />
         </>
      );
 }
